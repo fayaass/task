@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>HTML</title>
+       
+    </head>
+
+    <body>
+
+        <h1>Forms</h1>
+        <form action="/submit">
+            <label for="first name">First Name : </label>
+            <input type="text" name="name" placeholder="Enter first name" id="name">
+
+            <br><br><br>
+
+            <label for="last name">Last Name : </label>
+            <input type="text" name="name" placeholder="Enter last name" id="name">
+
+            <br><br><br>
+
+            <label for="Date of Birth">Date of Birth : </label>
+            <input type="date" id="Date of Birth" name="Date of Birth">
+
+
+            <br><br><br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <br><br><br>
+
+            <label for="country">Country : </label>
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select>
+
+            <br><br><br>
+
+            <label for="email">Email : </label>
+            <input type="email" name="email" placeholder="Enter your email" id="email">
+
+            <br><br><br>
+
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone" placeholder="enter phone" id="phone">
+
+            <br><br><br>
+
+            <label for="password">Password : </label>
+            <input type="password" name="password" placeholder="password" id="password">
+
+            <br><br><br>
+
+            <label for="password">Confirm Password : </label>
+            <input type="password" name="password" placeholder="password" id="password">
+
+            <br><br><br>
+
+            <label for="agree">I agree to the terms of use</label>
+            <input type="checkbox" id="agree" name="agree" value="agreed">
+
+            <br><br><br>
+
+            <input type="submit">
+            <button type="button" onclick="cancelAction()">Cancel</button>
+
+        </form>
+
+            <script>
+
+                function cancelAction(){
+                    window.location.href = 'index.html';// change this to your desired URL
+
+                }
+            </script>
+
+    </body>
+
+</html>
